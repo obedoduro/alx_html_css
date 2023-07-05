@@ -1,0 +1,1 @@
+Figma is a nice platform  which i recommend for all drag and drop web designs for good layout correction and precision

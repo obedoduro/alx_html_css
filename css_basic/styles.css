@@ -18,6 +18,7 @@ main {
 
 header {
 border: 1px solid rgb(34, 0, 255);
+background-color: rgb(138, 182, 182);
 }
 
 aside {

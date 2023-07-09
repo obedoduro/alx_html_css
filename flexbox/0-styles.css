@@ -1,9 +1,9 @@
 .grid-container {
     display: flex;
 }
-.class {
+/*.class {
     display: flex;
-}
+}*/
 .testimonial {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -11,3 +11,7 @@
     grid-row: 4;
     display: flex;
 }
+/* Grid*/
+.row{
+grid-row: auto;
+display: flex;}

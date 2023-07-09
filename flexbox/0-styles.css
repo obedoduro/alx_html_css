@@ -15,3 +15,7 @@
 .row{
 grid-row: auto;
 display: flex;}
+
+.col-{
+float:none;
+}

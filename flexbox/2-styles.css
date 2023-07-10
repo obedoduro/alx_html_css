@@ -1,6 +1,6 @@
 /* Section Latest news ============================= */
 
-.row{
+.section-latest-news>.container>.section-body>.row{
         flex-direction: row-reverse;
     
 

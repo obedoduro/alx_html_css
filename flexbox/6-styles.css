@@ -11,12 +11,22 @@
 .section-services .row {
     margin: 1rem;
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: space-between;
-        
-           
-         
 
 
+    
+
+
+}
+.nav {
+    display: flex;
+}
+.nav .nav-item{
+    display: none;
+}
+.nav-item-margin{
+    
 }

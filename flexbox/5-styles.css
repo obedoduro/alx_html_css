@@ -1,0 +1,17 @@
+.col-1-3 {
+    width: calc((100% / 3) - 2rem);
+}
+
+.col-1-2 {
+    width: calc((100% / 2) - 2rem);
+}
+
+.col- {}
+
+.section-services .row {
+    margin: 1rem;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}

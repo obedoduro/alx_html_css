@@ -15,4 +15,8 @@
     display: flex;
     justify-content: space-between;
     position: none;
+    top: none;
+    left: none;
+    
+
 }

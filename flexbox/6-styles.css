@@ -24,8 +24,8 @@
 .nav {
     display: flex;
 }
-.nav .nav-item{
-    display: block;
+.nav .nav-item {
+    display: none;
 }
 .nav .nav-item + .nav-item{
     margin : 0;

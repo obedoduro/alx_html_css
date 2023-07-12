@@ -27,7 +27,7 @@
 .nav .nav-item{
     display: block;
 }
-.nav-item+.nav-item{
+.nav .nav-item+.nav-item{
     margin : 0;
 }
 .nav-item-margin{

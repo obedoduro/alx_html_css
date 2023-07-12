@@ -28,7 +28,7 @@
     justify-content: space-between;
 }
 .nav .nav-item + .nav-item{
-    margin : 0;
+    margin : auto;
 }
 .nav-item-margin{
     margin: 0px 0px 0px 2px;

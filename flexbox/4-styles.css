@@ -6,9 +6,10 @@
     width: calc((100% / 2) - 2rem);
 }
 
-.col-* {
+.col- {
    margin: 0;
 }
+
 .section-services .row {
         margin: 1rem;
 }

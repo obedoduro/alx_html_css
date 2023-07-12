@@ -12,6 +12,7 @@
     margin: 1rem;
 }
 
+/*Header*/
 .header-container {
     display: flex;
     justify-content: space-between;

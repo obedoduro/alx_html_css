@@ -13,3 +13,10 @@
 .section-services .row {
         margin: 1rem;
 }
+
+
+    [class*="col-"] {
+        margin : 0;
+        margin-left: 0;
+            margin-right: 0;
+    }

@@ -41,32 +41,11 @@
 
 body {
     width: 100vw;
-    height: 1000vh;
-background-image: white;
+    height: 100vh;
+background-image: url('image/headphones_hero_1.jpg');
     background-size: cover;
 }
 
-.container {
-    width: 100;
-    height: 100;
-    background-image: url('image/headphones_hero_1.jpg');
-    background-size: cover;
-    position: relative;
-}
-
-.container2 {
-    width: 10;
-    height: 10;
-    background-image: white;
-    background-size: cover;
-}
-
-.container3 {
-    width: 10;
-    height: 10;
-    background-image: url('image/headphones_hero_1.jpg');
-    background-size: cover;
-}
 /* NAVBAR STYLING STARTS */
 .navbar {
     display: flex;

@@ -231,7 +231,7 @@ body {
 }
 
 .musicbox {
-    gap: 14em;
+gap: 13%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -255,7 +255,7 @@ body {
 }
 
 .musicbox3 {
-    gap: 14em;
+    gap: 13%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

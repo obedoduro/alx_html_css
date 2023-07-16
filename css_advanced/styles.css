@@ -149,6 +149,8 @@ body {
   
     text-align: center;
     padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 .pros a  {
     color: white;
@@ -162,9 +164,9 @@ body {
 /*rounding image for fourth image in first section*/
 
 .image-container {
-    width:50%;
+    width:70%;
     /* Adjust the container size according to your image */
-    height: 50%;
+    height: 70%;
     overflow: hidden;
     /* Clip the image within the container */
     border-radius: 100%;

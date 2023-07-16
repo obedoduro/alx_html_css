@@ -5,6 +5,8 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    /*RESIZE SMOOTHLY*/
+    transition: width 0.9s ease, height 0.9s ease;
 
 }
 
@@ -94,28 +96,37 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 70px;
+
     color: #FFF;
     font-family: Source Sans Pro;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     border-radius: 22px;
-    background: rgb(224, 95, 207);
+    
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
-    width: 162px;
+border-radius: 22px;
+    background: #C271FF;
+width: 162px;
     height: 44px;
-
+    flex-shrink: 0;
+    
 }
 
 .few .longtext {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: transparent;
-    color: #fff;
+   
+
+    color: #FFF;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
 
 }
 
@@ -130,13 +141,22 @@ body {
 }
 
 .few .twotext h2 {
-    color: rgb(224, 95, 207);
-    font-size: 32;
+color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .few .twotext h3 {
-    color: white;
-    font-size: 32;
+color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 /*pros styling*/
@@ -146,27 +166,46 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-  
+
     text-align: center;
     padding-bottom: 5%;
     padding-right: 10%;
     padding-left: 10%;
 }
-.pros a  {
+
+.pros a {
     color: white;
-        font-size: 16px;
+    font-size: 16px;
 }
+
 .pros a p1 {
-    color: white;
-    font-size: 8px;
+color: #FFF;
+color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.pros a p {
+    color: #FFF;
+        text-align: center;
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 27px;
+       
 }
 
 /*rounding image for fourth image in first section*/
 
 .image-container {
-    width:70%;
+    width: 50%;
     /* Adjust the container size according to your image */
-    height: 70%;
+    height: 50%;
     overflow: hidden;
     /* Clip the image within the container */
     border-radius: 100%;
@@ -179,4 +218,395 @@ body {
     height: 100%;
     object-fit: cover;
     /* Maintain aspect ratio and cover the container */
+}
+
+/*Quote section*/
+.sectional1 {
+    /* Add your styles for the <section> elements here */
+    background-color: rgb(224, 95, 207);
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    text-align: left;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: relative;
+
+}
+
+.sectional1 q {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.sectional1 p{
+color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+    /* 152.727% */
+}
+.sectional1 h{
+    color: #FFF;
+        font-family: Source Sans Pro;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33.6px;
+}
+.sectional1 cite{
+    color: #FFF;
+        font-family: Source Sans Pro;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 33.6px;
+        /* 152.727% */
+}
+.sectional1 blockquote {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+/*Video section*/
+.videos {
+    gap: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    color: #0c0c0c;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+
+.videotext {
+    padding-top: 5%;
+    gap: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+      color: #C271FF;
+        font-family: Source Sans Pro;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.vid h4 {
+    color: #0a0a0a;
+}
+
+.vid h4e {
+    color: rgb(224, 95, 207);
+}
+
+.vid p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.vid p1 {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*rounding comment image under video section*/
+.image-container1 {
+    width: 20%;
+    /* Adjust the container size according to your image */
+    height: 50%;
+    overflow: hidden;
+    /* Clip the image within the container */
+    border-radius: 100%;
+    /* Make the image circular */
+}
+
+/* Optional: Adjust the image size to fit the container */
+.image-container1 img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+}
+
+
+
+
+
+
+/* Free Membership */
+.member {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /*container should shrink along the window*/
+    top: 0;
+    left: 0;
+    min-width: 300px;
+    /* Set a minimum width to avoid being too small */
+    min-height: 200px;
+    padding-bottom: 5%;
+
+}
+
+.membership {
+    gap: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    color: #0c0c0c;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative;
+
+}
+
+
+.membershiptext {
+    padding-top: 5%;
+    gap: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.member .membershiptext h4 {
+color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.member .membershiptext h4e {
+color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.member p {
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.member p1 {
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttone {
+
+    /* Green */
+    border: none;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+ 
+    border-radius: 22px;
+    background: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 162px;
+    height: 44px;
+border-radius: 22px;
+flex-shrink: 0;
+
+color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+      
+
+}
+
+
+/*FAQ*/
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+    flex-shrink: 0;
+}
+
+.faq .faqtitle {
+    padding-top: 5%;
+    gap: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+   
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+
+.top-section,
+.bottom-section {
+    display: flex;
+    gap: 20px;
+}
+
+.content-section {
+    flex: 1;
+
+    padding: 20px;
+}
+
+.faq h2 {
+    color: black;
+}
+
+.faq p {
+color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+    display: flex;
+}
+
+
+
+
+
+/*footer*/
+.footerfirst {
+    width: 100%;
+
+    flex-shrink: 0;
+    height: max-content;
+    background: #071629;
+
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/*for footer*/
+/* NAVBAR STYLING STARTS */
+.navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-links1 a {
+    color: #fff;
+}
+
+/* LOGO */
+.logo1 {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu1 {
+    display: flex;
+    gap: 1em;
+    font-size: 15px;
+
+}
+
+.menu1 li:hover {
+    background-color: #cf40d1;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    color: pink;
+}
+
+.menu1 li {
+    padding: 5px 14px;
+
+}
+
+.footertitlebottom {
+    text-align: center;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

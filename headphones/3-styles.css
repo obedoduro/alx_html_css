@@ -44,6 +44,8 @@ body {
     height: 100vh;
 background-image: url('image/headphones_hero_1.jpg');
     background-size: cover;
+    margin: 0;
+        padding: 0;
 }
 
 /* NAVBAR STYLING STARTS */

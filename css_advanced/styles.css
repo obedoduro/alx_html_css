@@ -584,6 +584,7 @@ color: rgba(7, 22, 41, 0.50);
     flex-shrink: 0;
     height: max-content;
     background: #071629;
+    padding-bottom: 3%;
 
 }
 
@@ -643,4 +644,5 @@ color: rgba(7, 22, 41, 0.50);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 }

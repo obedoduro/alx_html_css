@@ -1,6 +1,6 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: rgb(255, 255, 255);
     background-size: cover;
     margin: 0;
@@ -148,4 +148,33 @@ body {
     align-items: center;
   
     text-align: center;
+    padding-bottom: 5%;
+}
+.pros a  {
+    color: white;
+        font-size: 16px;
+}
+.pros a p1 {
+    color: white;
+    font-size: 8px;
+}
+
+/*rounding image for fourth image in first section*/
+
+.image-container {
+    width:50%;
+    /* Adjust the container size according to your image */
+    height: 50%;
+    overflow: hidden;
+    /* Clip the image within the container */
+    border-radius: 100%;
+    /* Make the image circular */
+}
+
+/* Optional: Adjust the image size to fit the container */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
 }

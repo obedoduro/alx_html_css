@@ -434,7 +434,7 @@ body {
 /* HERO */
 
 .hero {
-    background-image: var(--image-gradiant), url("./images/headphones_hero_1.jpg");
+    background-image: var(--image-gradiant), url("image/headphones_hero_1.jpg");
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
     background-position: -575px -100px;
@@ -535,7 +535,7 @@ body {
 /* OUR RESULTS */
 
 .results {
-    background-image: var(--image-gradiant), url("./images/headphones_hero_2.jpg");
+    background-image: var(--image-gradiant), url("image/headphones_hero_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -574,7 +574,7 @@ body {
 }
 
 .result-column .column-pentagone {
-    background-image: url(./images/pentagone.png);
+    background-image: url(image/pentagone.png);
     background-repeat: no-repeat;
     background-size: 95%;
     background-position: 50%;

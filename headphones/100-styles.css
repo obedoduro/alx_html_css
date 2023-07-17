@@ -311,7 +311,7 @@ template {
 }
 
 .results {
-    background-image: var(--image-gradiant), url("./images/headphones_hero_2.jpg");
+    background-image: var(--image-gradiant), url("image/headphones_hero_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -350,7 +350,6 @@ template {
 }
 
 .result-column .column-pentagone {
-    /* background-image is url(./images/pentagone.png); */
     background-repeat: no-repeat;
     background-size: 95%;
     background-position: 50%;
